@@ -1,0 +1,152 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&family=Lato:wght@700;900&family=Manrope:wght@800&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+h2, h3, h6, p {
+    line-height: 25px;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 105%;
+    
+}
+
+h1, h5{
+    line-height: 30px;
+    font-family: 'Manrope', sans-serif;
+    
+}
+
+.upperarea {
+    background-image: 
+        linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("./Pictures/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+    padding: 0;
+    color: white;
+}
+
+.leftheader {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px 0px 20px;
+    font-size: small;
+}
+
+.rightheader{
+    background-color: rgb(231, 39, 39);
+    border: none;
+    color: white;
+    height: 25px;
+    border-radius: 40px;
+    padding: 5px 25px 5px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    display: inline-block;
+}
+
+.middlecontent {
+    max-width: 40%;
+    margin: auto;
+    padding-bottom: 70px;
+}
+
+.download {
+    background-color: #22b3ec;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    padding-top: 0;
+    padding: 10px 25px 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    font-family: 'Manrope', sans-serif;
+}
+
+.lowerarea {
+    text-align: center;
+    max-width: 40%;
+    margin: auto;
+}
+
+.icons, .pictures {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+    row-gap: 15px;
+
+}
+
+.lowerarea button {
+    border: 1px solid #22b3ec;
+    background-color: white;
+    border-radius: 40px;
+    color: #22b3ec;
+    padding-top: 0;
+    padding: 10px 25px 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.lowerarea button:hover, .download:hover {
+    background-color: #222a73;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    padding-top: 0;
+    padding: 10px 25px 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+
+#active {
+    background-color: #53b3ed;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    padding-top: 0;
+    padding: 10px 25px 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.picturearea {
+    text-align: center;
+    max-width: 50%;
+    margin: auto;
+    padding-bottom: 40px;
+}
+
+.img {
+    width: 180px;
+    height: 100px;
+}
+
+#tags{
+
+    font-family: 'Manrope', sans-serif;
+    font-size: 190%;
+    font-weight: bolder;
+}
